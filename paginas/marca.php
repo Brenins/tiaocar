@@ -58,7 +58,7 @@
                         R$ {$valor}
                         </p>
                         <p>
-                            <a href='veiculo/{$id}' class='btn btn-primary'>Detalhes <i class='fa-solid fa-magnifying-glass'></i></a>
+                            <a href='veiculo/{$id}' class='btn btn-secondary'>Detalhes <i class='fa-solid fa-magnifying-glass'></i></a>
                         </p>
                         </div>";
                     }

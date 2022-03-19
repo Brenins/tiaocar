@@ -21,7 +21,7 @@
     <div class="grid">
         <?php
             //Selecionar produtos vitrine
-            $sql= "select * from veiculo";
+            $sql= "select * from veiculo order by rand() limit 3";
             //Preparar sql exec
             $consulta = $pdo->prepare($sql);
             //executar sql
@@ -47,7 +47,7 @@
                         R$<?=$valor?>
                     </p>
                     <p>
-                        <a href='veiculo/<?=$id?>' class='btn btn-primary'>Detalhes <i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href='veiculo/<?=$id?>' class='btn btn-secondary'>Detalhes <i class="fa-solid fa-magnifying-glass"></i></a>
                     </p>
                 </div>
                 <?PHP
